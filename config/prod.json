@@ -1,0 +1,23 @@
+{
+  "base_url": "https://api.example.com",
+  "timeout": 5,
+  "retry_attempts": 2,
+  "auth": {
+    "username": "prod_user",
+    "password": "prod_password"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "X-API-Key": "prod-api-key-12345"
+  },
+  "endpoints": {
+    "posts": "/api/posts",
+    "users": "/api/users",
+    "comments": "/api/comments"
+  },
+  "test_data": {
+    "post_id": 101,
+    "user_id": 10
+  }
+} 
