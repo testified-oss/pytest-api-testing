@@ -1,0 +1,22 @@
+{
+  "base_url": "https://jsonplaceholder.typicode.com",
+  "timeout": 10,
+  "retry_attempts": 3,
+  "auth": {
+    "username": "dev_user",
+    "password": "dev_password"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "endpoints": {
+    "posts": "/posts",
+    "users": "/users",
+    "comments": "/comments"
+  },
+  "test_data": {
+    "post_id": 1,
+    "user_id": 1
+  }
+} 
