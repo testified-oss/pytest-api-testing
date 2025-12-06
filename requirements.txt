@@ -22,4 +22,4 @@ referencing==0.36.2
 requests==2.32.4
 responses==0.24.1
 rpds-py==0.24.0
-urllib3==2.5.0
+urllib3==2.6.0
